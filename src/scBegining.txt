@@ -1,15 +1,11 @@
-
 Welcome.
-
 What do you call yourself?
 Hello, ___.
 This is your life.
 → You wake up in an apartment. It’s still dark outside, but your alarm blares, undeterred.
-1
+???
 Do you stay in bed or attend your morning class?
 stay in
 go to class
 src/scCoffeeShop.txt
 src/scClass.txt
-
-
