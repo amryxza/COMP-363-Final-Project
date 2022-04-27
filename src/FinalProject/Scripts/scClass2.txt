@@ -1,0 +1,9 @@
+ It doesn’t hurt to be nice, but it sure is awkward.
+ You interrupt your peer’s beeline towards the door.
+ You introduce yourself.
+???
+They look caged.
+You give up and let them go
+ask them for their name.
+src/FinalProject/Scripts/CoffeeAfterClass.txt
+src/FinalProject/Scripts/scClass3.txt

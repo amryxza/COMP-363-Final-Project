@@ -1,0 +1,11 @@
+→ Jamie tightly wraps their coat around themselves.
+You ask about their attendance in class.
+...
+Jamie shrugs.
+...
+???
+They say they don’t care, really. This is uncomfortable.What do you do?
+You make the excuse that you need to travel in the opposite direction
+Offer your notes in lieu of nothing else to do.
+src/FinalProject/Scripts/CoffeeAfterClass.txt
+src/FinalProject/Scripts/scClass5.txt

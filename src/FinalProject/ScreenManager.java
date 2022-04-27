@@ -16,7 +16,7 @@ public class ScreenManager {
         clear();
         ui.mainTextPanel.setVisible(true);
         ui.nextButtonPanel.setVisible(true);
-        ui.index++;
+
 
     }
 
@@ -26,6 +26,16 @@ public class ScreenManager {
         ui.decisionPanel.setVisible(true);
         ui.nextButtonPanel.setVisible(false);
 
+    }
+    public void DemoEnd(){
+        clear();
+        ui.demoEndPannel.setVisible(true);
+
+    }
+    public void showDecision3(){
+        clear();
+        ui.mainTextPanel.setVisible(true);
+        ui.decision3Panel.setVisible(true);
     }
 
     public void clear(){
@@ -37,6 +47,14 @@ public class ScreenManager {
         ui.mainTextPanel.setVisible(false);
         //choices
         ui.decisionPanel.setVisible(false);
+        // end
+        ui.demoEndPannel.setVisible(false);
+        //three decisions
+        ui.decision3Panel.setVisible(false);
+
+
     }
+
+
 
 }

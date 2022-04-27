@@ -1,13 +1,18 @@
-
-
-→ Groaning, you drag yourself out of bed. Duty calls. You pass the class: paying attention / observing the people around you.
-
-→ Although the class is interesting, you cannot bring yourself to focus so early in the morning.
- Your gaze meanders across the room, picking people apart.
-  It’s the same people in the same outfits with the same dead expressions on their faces.
-   Well, actually...
-   not quite.
-    There’s someone here who hasn’t shown up since the first day of the semester several months ago. How have they even taken exams? you wonder.
-    They don’t have any sort of note-taking device and it looks like they’re on the verge of passing out.
- 1
-     After class, you forget about them / approach them.
+→Groaning, you drag yourself out of bed.
+ Duty calls.
+ You pass the class: paying attention / observing the people around you.
+→ Although the class is interesting,
+you cannot bring yourself to focus so early in the morning.
+Your gaze meanders across the room, picking  people apart.
+It’s the same people in the same outfits with the same dead expressions on their faces.
+Well, actually...
+not quite.
+There’s someone here who hasn’t shown up     since the first day of the semester several        months ago.
+ How have they even taken exams? you wonder.
+They don’t have any sort of note-taking device  and it looks like they’re on the verge of passing out.
+???
+After class, you...
+forget about them
+approach them.
+src/FinalProject/FinalProject.Scripts/CoffeeAfterClass.txt
+src/FinalProject/Scripts/scClass2.txt

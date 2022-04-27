@@ -70,3 +70,29 @@ We can modify this or add to this, we just need to implement the code in the tex
 *Player*
 -
 This class just stores the general data of the player. This class is yet to be impelemented, but it is initialized  in setUP() the Stroy class but not fully
+
+-----------------------------------------------
+
+
+#Update V3
+
+The code has been routed with everything that has been ready and is ready for a demo.
+the only comment we need to rework the pacing and some of the wording
+as it loses a lot of the writing. 
+
+The codes for the processing has been dictated but we can mix symbols to addd more. Each group of symbols 
+represent a specific type of decision loop or action:
+
+    ??? = decision between 2 options
+    XXX = No decision to be made dictated path
+    @@@ =  Redundant Choice, they both lead to the same path
+    ### = Tripple choice, 3 paths
+    *** = End activator for the demo
+
+there is a lot of things that we can still add and have too.
+
+For the point processing I was thinking either using the text files to store the 
+ values as they only change as the decision are made. the other idea I had was to
+store the desion promts onto a hashmap using the options as keys to get the corresponding
+
+    

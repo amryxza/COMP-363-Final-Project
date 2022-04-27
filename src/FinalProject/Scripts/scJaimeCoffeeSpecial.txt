@@ -1,0 +1,8 @@
+-> They sigh, but dutifully approach the counter and say — in a relatively friendly way, and with a smile to boot, much to your surprise
+— Excuse me, I think I ordered a cookie but it hasn’t come yet?
+I’m so sorry, says the worker. I’ll get that to you immediately.
+@@@
+As they return, cookie in hand, you give them
+a look
+you grin.
+src/FinalProject/Scripts/scJaimeCoffeeSpecial2.txt

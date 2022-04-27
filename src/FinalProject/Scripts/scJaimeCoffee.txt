@@ -1,0 +1,16 @@
+Jamie is utterly unresponsive.
+ You can’t quite gauge their response, but at least they don’t leave.
+→ Honestly, this isn’t worth the effort.
+...
+→ You arrive at the coffee shop.
+...
+...
+The two of you queue into a growing line of listless students happy to be free from class.
+ They chatter amongst themselves. You order and meander to the side to wait for your coffee.
+ Jamie follows you. Not getting anything? you ask.
+???
+No, says Jamie. What do you say?
+You insist they get something, if just to be polite /
+Suit yourself, you say.
+src/FinalProject/Scripts/scJaimeCoffeeSpecial.txt
+src/FinalProject/Scripts/scJaimeCoffee2.txt

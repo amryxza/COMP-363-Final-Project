@@ -20,6 +20,7 @@ public class Game {
     public Game() throws FileNotFoundException {
         ui.createUI(handler);
         screenManager.showTitleScreen();
+        story.setUp();
     }
 
 
@@ -46,6 +47,14 @@ public class Game {
                     screenManager.showMainText();
                     try {
                         story.pathing(2);
+                    } catch (FileNotFoundException ex) {
+                        ex.printStackTrace();
+                    }
+                    break;
+                case "opt3":
+                    screenManager.showMainText();
+                    try {
+                        story.pathing(3);
                     } catch (FileNotFoundException ex) {
                         ex.printStackTrace();
                     }

@@ -10,14 +10,13 @@ import java.awt.*;
 
 public class UI {
     JFrame window;
-    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel;
-    JButton startButton,nextButton,decision1,decision2;
-    JLabel title;
+    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel, demoEndPannel, decision3Panel ;
+    JButton startButton,nextButton,decision1,decision2,d1,d2, d3;
+    JLabel title,demoEnd;
     JTextArea mainTextArea;
     Font titleFont= new Font("Times New Roman",Font.BOLD,90);
     Font startButtonFont= new Font("Times New Roman",Font.BOLD, 30);
     Font normalFont= new Font("Arial",Font.PLAIN, 28);
-    int index=0;
 
 
 
@@ -27,7 +26,7 @@ public class UI {
         //window for the game
         window= new JFrame();
         window.setSize(800,600);
-        window.setTitle("SomeGame v.2");
+        window.setTitle("SomeGame v.3");
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.getContentPane().setBackground(Color.BLACK);
         window.setLayout(null);
@@ -40,7 +39,7 @@ public class UI {
         titlePanel.setBackground(Color.black);
         window.add(titlePanel);
 
-        title= new JLabel("SOMEGAMEv2");
+        title= new JLabel("SOMEGAMEv3");
         title.setForeground(Color.white);
         title.setFont(titleFont);
         titlePanel.add(title);
@@ -62,7 +61,7 @@ public class UI {
         //Main text area
         mainTextPanel= new JPanel();
         mainTextPanel.setBounds(100,100,600,200);
-        mainTextPanel.setBackground(Color.RED);
+        mainTextPanel.setBackground(Color.BLACK);
         window.add(mainTextPanel);
 
         mainTextArea= new JTextArea();
@@ -94,7 +93,7 @@ public class UI {
 
 
         decisionPanel= new JPanel();
-        decisionPanel.setBounds(100,300,150,100);
+        decisionPanel.setBounds(100,300,200,100);
         decisionPanel.setLayout(new GridLayout(2,1));
         decisionPanel.setBackground(Color.RED);
         window.add(decisionPanel);
@@ -115,6 +114,48 @@ public class UI {
         decision2.addActionListener(choiceHandler);
         decision2.setActionCommand("opt2");
         decisionPanel.add(decision2);
+
+        demoEndPannel = new JPanel();
+        demoEndPannel.setBounds(100,100,600,250);
+        demoEndPannel.setBackground(Color.blue);
+        window.add(demoEndPannel);
+
+        demoEnd = new JLabel("ROUTE END");
+        demoEnd.setForeground(Color.white);
+        demoEnd.setFont(titleFont);
+        demoEndPannel.add(demoEnd);
+
+        decision3Panel = new JPanel();
+        decision3Panel.setBackground(Color.yellow);
+        decision3Panel.setBounds(100,300,400,200);
+        decision3Panel.setLayout(new GridLayout(3,1));
+
+        d1= new JButton();
+        d1.setFocusPainted(false);
+        d1.setBackground(Color.BLACK);
+        d1.setForeground(Color.WHITE);
+        d1.addActionListener(choiceHandler);
+        d1.setActionCommand("opt1");
+
+        d2= new JButton();
+        d2.setFocusPainted(false);
+        d2.setBackground(Color.BLACK);
+        d2.setForeground(Color.WHITE);
+        d2.addActionListener(choiceHandler);
+        d2.setActionCommand("opt2");
+
+        d3 = new JButton();
+        d3.setFocusPainted(false);
+        d3.setForeground(Color.white);
+        d3.setBackground(Color.black);
+        d3.addActionListener(choiceHandler);
+        d3.setActionCommand("opt3");
+
+        decision3Panel.add(d1);
+        decision3Panel.add(d2);
+        decision3Panel.add(d3);
+
+        window.add(decision3Panel);
 
         window.setVisible(true);
 
