@@ -37,7 +37,7 @@ public class Story {
         player.Will = -10;
         player.Kindness = 0;
         player.empathy = 0;
-        ui.mainTextArea.setText("What is this?");
+        ui.mainTextArea.setText("DEMO\nThe world is a world like ours.\nThe year is a year like ours.\nYou are a senior in college, and you have done very little with your life.\n How will you proceed?");
 
 
     }
