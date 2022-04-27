@@ -162,4 +162,8 @@ public class Story {
 
 
     }
+    public void toTitle(){
+        sm.showTitleScreen();
+        setUp();
+    }
 }

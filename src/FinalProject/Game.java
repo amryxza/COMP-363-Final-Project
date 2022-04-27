@@ -34,6 +34,8 @@ public class Game {
                     screenManager.showMainText();break;
                 case "next":
                     screenManager.showMainText();story.nextPressed();break;
+                case"return":
+                        story.toTitle();
                 case "opt1":
                     screenManager.showMainText();
                     try {

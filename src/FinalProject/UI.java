@@ -10,8 +10,8 @@ import java.awt.*;
 
 public class UI {
     JFrame window;
-    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel, demoEndPannel, decision3Panel ;
-    JButton startButton,nextButton,decision1,decision2,d1,d2, d3;
+    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel, demoEndPannel, decision3Panel, menuReturnPanel ;
+    JButton startButton,nextButton,decision1,decision2,d1,d2, d3, menuReturn;
     JLabel title,demoEnd;
     JTextArea mainTextArea;
     Font titleFont= new Font("Times New Roman",Font.BOLD,90);
@@ -93,7 +93,7 @@ public class UI {
 
 
         decisionPanel= new JPanel();
-        decisionPanel.setBounds(100,300,200,100);
+        decisionPanel.setBounds(100,300,300,150);
         decisionPanel.setLayout(new GridLayout(2,1));
         decisionPanel.setBackground(Color.RED);
         window.add(decisionPanel);
@@ -156,6 +156,23 @@ public class UI {
         decision3Panel.add(d3);
 
         window.add(decision3Panel);
+
+        menuReturnPanel= new JPanel();
+        menuReturnPanel.setBounds(300,400,200,60);
+        menuReturnPanel.setVisible(false);
+        menuReturnPanel.setBackground(Color.black);
+        window.add(menuReturnPanel);
+        menuReturn= new JButton("Return");
+        menuReturn.setForeground(Color.white);
+        menuReturn.setBackground(Color.BLACK);
+        menuReturn.setFocusPainted(false);
+        menuReturn.addActionListener(choiceHandler);
+        menuReturn.setActionCommand("return");
+        menuReturn.setFont(startButtonFont);
+        menuReturnPanel.add(menuReturn);
+
+
+
 
         window.setVisible(true);
 
