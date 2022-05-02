@@ -17,4 +17,4 @@ Any hobbies?
      What is this, an interrogation?
      You lapse into silence in an effort to not scare off Jamie. /
      You tell Jamie about yourself, at the risk of them leaving you out of sheer annoyance.
-src/FinalProject/Scripts/scJaimeCoffee.txt
+src/FinalProject/Scripts/scJamieCoffee.txt
