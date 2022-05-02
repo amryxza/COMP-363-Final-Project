@@ -23,9 +23,9 @@ public class Player {
      * --> (+ empathy + .5(+ impulsivity + will) - academic focus - kindness)
      */
 
-    String jaimeTrust;
-    String jaimeUnderstaning;
-    String jaimeInterest;
+    String jamieTrust;
+    String jamieUnderstaning;
+    String jamieInterest;
 
 
 
