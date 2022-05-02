@@ -7,10 +7,10 @@ Jamie is utterly unresponsive.
 ...
 The two of you queue into a growing line of listless students happy to be free from class.
  They chatter amongst themselves. You order and meander to the side to wait for your coffee.
- Jamie follows you. Not getting anything? you ask.
+ Jamie follows you. "Not getting anything?" you ask.
 ???
-No, says Jamie. What do you say?
+"No," says Jamie. What do you say?
 You insist they get something, if just to be polite /
-Suit yourself, you say.
+"Suit yourself," you say.
 src/FinalProject/Scripts/scJamieCoffeeSpecial.txt
 src/FinalProject/Scripts/scJamieCoffee2.txt
