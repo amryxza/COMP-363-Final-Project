@@ -1,7 +1,7 @@
- They squint at you. Why, they ask.
+ They squint at you. "Why," they ask.
 ???
- I don’t want them. You say:
- Don’t you want to pass the class?
- What year are you?
+ "I don’t want them." You say:
+ "Don’t you want to pass the class?"
+ "What year are you?"
 src/FinalProject/Scripts/scClass6Neg.txt
 src/FinalProject/Scripts/scClass6Pos.txt
