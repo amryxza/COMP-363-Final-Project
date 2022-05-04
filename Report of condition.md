@@ -101,7 +101,7 @@ For the point processing, thinking of either using the text files to store the
 
 *Testing*
 -
-Previous to the demo, some conversation paths were not linked together to form a complete tree.
+Prior to the demo, some conversation paths were not linked together to form a complete tree.
 Edits have since been made to ensure that the wording is not cut off when it is displayed, and the game
 was run several times through the sections of the decision tree to make sure all the paths are correct. Majority
 of the testing for this project was done this way, since viewing the progression of the conversation is
@@ -110,6 +110,16 @@ and then the code was amended to fix these issues. Because of the size of the di
 found this way and have also been amended. Every decision path was tested manually to ensure there are
 no bugs. The code should now display a clear path through the tree that is comprehensible to both players and developers.
 
-
+*Iterative Design*
+-
+The design has been modified to reflect the original intentions of the game, which was to have mutable personalities
+moods of each of the characters. This was difficult to implement, because we also needed to connect certain paths to
+specific mood values for each character. For example, if one of the NPCs becomes frustrated with the player in a conversation, the decision
+path is modified to only allow for a more hostile conversation. The difficulty was determining whether these paths should
+be forked from specific player responses, or if the paths should be based solely off of the current personality variable
+values. In the end, we decided on a mixture of both. Some decision paths can only be reached if the player chooses
+a specific response in a conversation, while other paths have the option to be reached either directly by conversation, 
+or by reaching a certain variable value at a later point in the game. This makes for more realistic and AI-like conversations,
+as there is not a straight-shot path through the game but rather a web of paths. 
  
  -------
