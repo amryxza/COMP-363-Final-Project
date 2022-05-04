@@ -79,7 +79,7 @@ The code has been routed with everything that has been ready and is ready for a 
 The only comment is that we need to rework the pacing and some of the wording,
 as it loses a lot of the writing. 
 
-The code for the processing has been dictated but we can mix symbols to addd more. Each group of symbols 
+The code for the processing has been dictated, but we can mix symbols to add more. Each group of symbols 
 represent a specific type of decision loop or action:
 
     ??? = decision between 2 options
@@ -95,9 +95,21 @@ For the point processing, thinking of either using the text files to store the
  onto a hashmap using the options as keys to get the corresponding values.
 
  ---------------
-5/3 
- 
-Edited dialogue, fixed typos, and cleaned code
--AA
+
+
+# Update V4
+
+*Testing*
+-
+Previous to the demo, some conversation paths were not linked together to form a complete tree.
+Edits have since been made to ensure that the wording is not cut off when it is displayed, and the game
+was run several times through the sections of the decision tree to make sure all the paths are correct. Majority
+of the testing for this project was done this way, since viewing the progression of the conversation is
+easiest if you are simply playing the game. Conversation prompts were flagged if they returned an error or incorrect path,
+and then the code was amended to fix these issues. Because of the size of the dialogue, several typos were also
+found this way and have also been amended. Every decision path was tested manually to ensure there are
+no bugs. The code should now display a clear path through the tree that is comprehensible to both players and developers.
+
+
  
  -------
