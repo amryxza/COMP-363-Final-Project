@@ -16,17 +16,21 @@ public class Player {
     int Kindness;
     int empathy;
 
+
      /** jamie_trust: -20
      * --> (+ .5(kindness) - academic focus)
      * jamie_understanding: -20
      * jamie_interest: -20
      * --> (+ empathy + .5(+ impulsivity + will) - academic focus - kindness)
      */
-
     String jaimeTrust;
+    String jaimeAcademicFocus;
     String jaimeUnderstaning;
     String jaimeInterest;
-
+    String jaimeKindness;
+    String jaimeEmpathy;
+    String jaimeImpulsiveness;
+    String jaimeWill;
 
 
      /** cal_trust: 20
@@ -40,9 +44,10 @@ public class Player {
     String calUnderstaning;
     String calInterest;
     String calKindness;
-    String calempathy;
+    String calEmpathy;
     String calImpulsiveness;
     String calWill;
+
 
      /** cj_trust: 0
      * cj_understanding: 0

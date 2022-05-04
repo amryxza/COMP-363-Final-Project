@@ -29,7 +29,7 @@ public class ScreenManager {
     }
     public void DemoEnd(){
         clear();
-        ui.demoEndPannel.setVisible(true);
+        ui.demoEndPanel.setVisible(true);
         ui.menuReturnPanel.setVisible(true);
 
     }
@@ -49,7 +49,7 @@ public class ScreenManager {
         //choices
         ui.decisionPanel.setVisible(false);
         // end
-        ui.demoEndPannel.setVisible(false);
+        ui.demoEndPanel.setVisible(false);
         //three decisions
         ui.decision3Panel.setVisible(false);
         //restart button

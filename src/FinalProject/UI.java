@@ -10,7 +10,7 @@ import java.awt.*;
 
 public class UI {
     JFrame window;
-    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel, demoEndPannel, decision3Panel, menuReturnPanel ;
+    JPanel titlePanel, startButtonPanel, mainTextPanel, nextButtonPanel,decisionPanel, demoEndPanel, decision3Panel, menuReturnPanel ;
     JButton startButton,nextButton,decision1,decision2,d1,d2, d3, menuReturn;
     JLabel title,demoEnd;
     JTextArea mainTextArea;
@@ -39,7 +39,7 @@ public class UI {
         titlePanel.setBackground(Color.black);
         window.add(titlePanel);
 
-        title= new JLabel("SOMEGAMEv3");
+        title= new JLabel("SOMEGAMEv3"); // change to title
         title.setForeground(Color.white);
         title.setFont(titleFont);
         titlePanel.add(title);
@@ -115,15 +115,15 @@ public class UI {
         decision2.setActionCommand("opt2");
         decisionPanel.add(decision2);
 
-        demoEndPannel = new JPanel();
-        demoEndPannel.setBounds(100,100,600,250);
-        demoEndPannel.setBackground(Color.blue);
-        window.add(demoEndPannel);
+        demoEndPanel = new JPanel();
+        demoEndPanel.setBounds(100,100,600,250);
+        demoEndPanel.setBackground(Color.blue);
+        window.add(demoEndPanel);
 
         demoEnd = new JLabel("ROUTE END");
         demoEnd.setForeground(Color.white);
         demoEnd.setFont(titleFont);
-        demoEndPannel.add(demoEnd);
+        demoEndPanel.add(demoEnd);
 
         decision3Panel = new JPanel();
         decision3Panel.setBackground(Color.yellow);
@@ -158,7 +158,7 @@ public class UI {
         window.add(decision3Panel);
 
         menuReturnPanel= new JPanel();
-        menuReturnPanel.setBounds(300,400,200,60);
+        menuReturnPanel.setBounds(300,400,200,60); // does editing the bounds adjust the text wrapper ??
         menuReturnPanel.setVisible(false);
         menuReturnPanel.setBackground(Color.black);
         window.add(menuReturnPanel);
