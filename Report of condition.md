@@ -1,4 +1,4 @@
-#Status of the Project
+# Status of the Project
 
 
 Built a framework using java.swing classes
@@ -26,7 +26,7 @@ THINGS TO THINK/DO
     -Think about how to add the point systems
 
 -----------------------------------------------
-#Update v2
+# Update v2
 
     -Fixed structure in the code
     -No more problems with the text display
@@ -73,7 +73,7 @@ This class just stores the general data of the player. This class is yet to be i
 -----------------------------------------------
 
 
-#Update V3
+# Update V3
 
 The code has been routed with everything that has been ready and is ready for a demo.
 The only comment is that we need to rework the pacing and some of the wording,
@@ -95,7 +95,7 @@ For the point processing, thinking of either using the text files to store the
  onto a hashmap using the options as keys to get the corresponding values.
 
  ---------------
- 5/3 
+5/3 
  
 Edited dialogue, fixed typos, and cleaned code
 -AA
