@@ -1,18 +1,18 @@
 You somehow manage to grab a table just as its previous occupants leave.
 A sip of your coffee reveals that it is far too bitter. You grimace.
-I’m going to go get sugar and cream, you clarify.
-While rummaging through sugar packets, something bumps into you, and you stumble backwards
-Right into someone’s fresh cup of hot coffee.
+"I’m going to go get sugar and cream," you clarify.
+While rummaging through sugar packets, something bumps into you, and you stumble backwards,
+right into someone’s fresh cup of hot coffee.
 Although the liquid has soaked through your clothes as well, you apologize profusely and run to grab napkins for your unfortunate victim.
-I’m so sorry, you say.
-It’s fine! they respond, beaming.
+"I’m so sorry," you say.
+"It’s fine!" they respond, beaming.
 The burst of enthusiasm is startling after dealing with Jamie for so long.
-I’m Cal, they say. Do you want to get a seat together?
+"I’m Cal," they say. "Do you want to get a seat together?"
 ###
-Their desire to sit with a stranger is baffling. what do you do?
-You show them back to your table, where Jamie appears to be disassociating
-I don’t think there are tables indoors, you say. Do you want to sit outside?
-Sorry, I have a class, you say, as apologetic as you can muster.
-src/FinalProject/Scripts/scCalJaime.txt
+Their desire to sit with a stranger is baffling. What do you do?
+You show them back to your table, where Jamie appears to be disassociating.
+"I don’t think there are tables indoors," you say. "Do you want to sit outside?"
+"Sorry, I have a class," you say, as apologetic as you can muster.
+src/FinalProject/Scripts/scCalJamie.txt
 src/FinalProject/Scripts/scCalCoffee.txt
-src/FinalProject/Scripts/scJaimeCoffee3.txt
+src/FinalProject/Scripts/scJamieCoffee3.txt

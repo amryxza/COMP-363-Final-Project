@@ -1,20 +1,20 @@
-I don’t like coffee,
+"I don’t like coffee,"
  they say after a moment of silence.
- That’s alright, you say. Come along anyway.
+ "That’s alright," you say. "Come along anyway."
  You both make your way towards a popular coffee shop just off campus.
  You try to convince yourself that it’s a companionable silence. (It’s not.)
  ....
-Do you do anything on campus? Like clubs or anything?
-No.
-Hm. What’s your major?
-Psychology.
-Oh! Is that interesting?
-No.
+"Do you do anything on campus? Like clubs or anything?"
+"No."
+"Hm. What’s your major?"
+"Psychology."
+"Oh! Is that interesting?"
+"No."
 ...
 Doesn’t Jamie do anything?
-Any hobbies?
+"Any hobbies?"
 @@@
-     What is this, an interrogation?
+     "What is this, an interrogation?"
      You lapse into silence in an effort to not scare off Jamie. /
      You tell Jamie about yourself, at the risk of them leaving you out of sheer annoyance.
-src/FinalProject/Scripts/scJaimeCoffee.txt
+src/FinalProject/Scripts/scJamieCoffee.txt

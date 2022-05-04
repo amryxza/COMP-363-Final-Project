@@ -37,7 +37,7 @@ public class Story {
         player.Will = -10;
         player.Kindness = 0;
         player.empathy = 0;
-        ui.mainTextArea.setText("DEMO\nThe world is a world like ours.\nThe year is a year like ours.\nYou are a senior in college, and you have done very little with your life.\n How will you proceed?");
+        ui.mainTextArea.setText("The world is a world like ours.\nThe year is a year like ours.\nYou are a senior in college, and you have done very little with your life.\n How will you proceed?");
 
 
     }
@@ -75,6 +75,7 @@ public class Story {
         }
 
         ui.mainTextArea.setText(line);
+        ui.mainTextArea.setLineWrap(true);
         index++;
 
 
@@ -159,11 +160,20 @@ public class Story {
     public void cleanDialog(){
         dialog.clear();
         index=0;
-
-
     }
-    public void toTitle(){
-        sm.showTitleScreen();
-        setUp();
+    public void toTitle()  {
+        try {
+            game = new Game();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        ui = new UI();
+        sm = new ScreenManager(ui);
+        dialog = new ArrayList<>();
+        try {
+            textIN("src/scBegining.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -3,7 +3,7 @@
  You introduce yourself.
 ???
 They look caged.
-You give up and let them go
+You give up and let them go.
 ask them for their name.
 src/FinalProject/Scripts/CoffeeAfterClass.txt
 src/FinalProject/Scripts/scClass3.txt

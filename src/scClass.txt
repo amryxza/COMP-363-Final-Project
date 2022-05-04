@@ -11,8 +11,8 @@ There’s someone here who hasn’t shown up     since the first day of the seme
  How have they even taken exams? you wonder.
 They don’t have any sort of note-taking device  and it looks like they’re on the verge of passing out.
 ???
-After class, you...
-forget about them
+After class, you 
+forget about them.
 approach them.
 src/FinalProject/FinalProject.Scripts/CoffeeAfterClass.txt
 src/FinalProject/Scripts/scClass2.txt
