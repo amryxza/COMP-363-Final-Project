@@ -12,5 +12,5 @@ The two of you queue into a growing line of listless students happy to be free f
 "No," says Jamie. What do you say?
 You insist they get something, if just to be polite /
 "Suit yourself," you say.
-src/FinalProject/Scripts/scJamieCoffeeSpecial.txt
-src/FinalProject/Scripts/scJamieCoffee2.txt
+src/FinalProject/Scripts/JamieCoffeeSpecial
+src/FinalProject/Scripts/scJaimeCoffee2.txt

@@ -11,4 +11,4 @@ The desire for caffeine itches you. "I want coffee so bad right now," you say.
 "Look," you say,
 "it’d be incredibly stupid of you to not graduate because you’re refusing such an easy way to pass one of the last classes you have to take." /
 "Look," you say, "I’m trying to be nice here."
-src/FinalProject/Scripts/scJamieTrasition.txt
+src/FinalProject/Scripts/scJamieTransition.txt

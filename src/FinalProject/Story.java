@@ -75,6 +75,7 @@ public class Story {
         }
 
         ui.mainTextArea.setText(line);
+        ui.mainTextArea.setLineWrap(true);
         index++;
 
 
@@ -159,11 +160,20 @@ public class Story {
     public void cleanDialog(){
         dialog.clear();
         index=0;
-
-
     }
-    public void toTitle(){
-        sm.showTitleScreen();
-        setUp();
+    public void toTitle()  {
+        try {
+            game = new Game();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        ui = new UI();
+        sm = new ScreenManager(ui);
+        dialog = new ArrayList<>();
+        try {
+            textIN("src/scBegining.txt");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
