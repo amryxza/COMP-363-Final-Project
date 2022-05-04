@@ -1,7 +1,7 @@
 # COMP-363-Final-Project
 
 This program simulates a game that allows the user to interact with non-player characters in a college setting
-with the purpose of demonstrating the complexities of intrapersonal relationships. This game is driven by conversation,
+with the purpose of demonstrating the complexities of interpersonal relationships. This game is driven by conversation,
 but also includes player feelings and biases that make it a realistic RPG. 
 
 The game runs on a decision tree that allows the user to play through several unique outcomes, depending on what 
